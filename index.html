@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="app-container">
+        <header>
+            <span id="dateTxt" class="date-text"></span>
+        </header>
+        <main>
+            <div class="notes-wrapper">
+
+            </div>
+        </main>
+        <footer>
+            <div class="footer">
+                <input type="text" id="inputNote" placeholder="Note"> 
+                <button type="button" id="addNoteBtn" class="addnote-btn">+</button>
+            </div>
+        </footer>
+    </div>
+
+    <div class="note hidden">
+        <div class="note-info">
+            <input type="checkbox" id="noteCheck" class="note-check">
+            <label class="note-text" for="IdNoteCheck">note2</label>
+        </div>
+        <button id="noteDelBtn" class="notedel-btn">X</button>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
